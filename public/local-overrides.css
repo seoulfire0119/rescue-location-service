@@ -1,0 +1,13 @@
+.fab-group .video-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 220;
+  align-items: center;
+  justify-content: center;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) 18px calc(18px + env(safe-area-inset-bottom, 0px));
+}
+
+.fab-group .call-screen {
+  width: min(100%, 360px);
+  padding: 30px 22px;
+}

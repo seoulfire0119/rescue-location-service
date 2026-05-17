@@ -1,0 +1,15 @@
+{
+  "name": "rescue-location-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local static server for the rescue location sharing web app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "deploy": "firebase deploy --only hosting --project rescue-location-6df11 --account 119gpt1@gmail.com"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}

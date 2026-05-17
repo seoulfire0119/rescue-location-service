@@ -1,0 +1,8 @@
+node_modules/
+.firebase/
+*.log
+server.log
+server.err.log
+_prototype_backup_*/
+.DS_Store
+Thumbs.db
