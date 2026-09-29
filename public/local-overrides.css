@@ -5,8 +5,11 @@ body { display: flex; flex-direction: column; }
   flex: 0 0 auto;
   display: flex; align-items: center; justify-content: center; gap: 6px;
   padding: calc(6px + env(safe-area-inset-top, 0px)) 12px 6px;
-  background: linear-gradient(90deg, #5b6cff, #8b5cf6);
+  /* 앱 배경·헤더가 보라색이라 같은 계열이면 묻힌다 — 주황으로 */
+  background: linear-gradient(90deg, #f59e0b, #f97316);
   color: #fff; font-size: 13px; font-weight: 700; text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,.18);
+  box-shadow: 0 2px 6px rgba(0,0,0,.18);
   position: relative; z-index: 300;
 }
 #ai-more span { font-size: 17px; line-height: 1; opacity: .85; }
